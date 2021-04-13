@@ -6,22 +6,11 @@
   background: -webkit-linear-gradient(to top, darkPurpleTop, $purple, $darkPurpleBottom);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, darkPurpleTop, $purple, $darkPurpleBottom); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  .header {
+  .footer {
     display: flex;
-    align-items: center;
-    color: $purpleGray;
-    height: 64px;
-
-    .title {
-      font-size: 2rem;
-    }
-
-    .logo {
-      display: inline-block;
-      max-width: 48px;
-      max-height: 48px;
-      margin: 0.5rem;
-      transform: scaleX(-1);
-    }
+    justify-content: space-evenly;
+    color: $white;
+    font-size: 0.75rem;
+    padding: 0.25rem;
   }
 }

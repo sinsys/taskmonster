@@ -1,0 +1,16 @@
+@import '../../styles/colors';
+
+:host {
+  width: 100%;
+
+  button {
+    width: 100%;
+    background: $darkPurpleTop;
+    border: 3px solid $blue;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+    color: $lightGray;
+  }
+}
